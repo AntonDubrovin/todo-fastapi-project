@@ -1,0 +1,12 @@
+services:
+  todo_service:
+    build: ./todo_service
+    ports:
+      - "8000:80"
+    volumes:
+      - todo_data:/app/data
+
+
+volumes:
+  todo_data:
+  url_data:
