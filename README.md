@@ -16,3 +16,10 @@ TODO-сервис:
 
 
 Docker HUB: https://hub.docker.com/repository/docker/antondubrovin/todo_service/general
+
+
+docker build -t antondubrovin/todo_service:latest .  
+docker login
+docker push antondubrovin/todo_service:latest
+docker ps -a
+docker run -d -p 8000:80 antondubrovin/todo_service:latest
