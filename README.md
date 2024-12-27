@@ -23,6 +23,7 @@ Docker HUB: https://hub.docker.com/repository/docker/antondubrovin/todo_service/
 - docker push antondubrovin/todo_service:latest
 - docker ps -a
 - docker run -d -p 8000:80 antondubrovin/todo_service:latest
+- docker ps -a
 
 http://localhost:8000/docs
 ![image](https://github.com/user-attachments/assets/35cd3c55-2b61-48c1-9bc7-b4e3d959b30d)
